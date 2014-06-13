@@ -1,0 +1,5 @@
+This is a full site I developed using an older version of the brushfire framework (not called such back then).
+
+The philosophy at the time was, captcha's were not going to be good for much longer, so apply a complicated set of rules for give user points, and have those points be meaningful (for instance, if a high point user flagged a low point user's post as spam, there was an increased likelihood that post would be deleted).  And, as such,  the system would be automated without need for moderators or captchas.  Unfortunately, most people did not understand the purpose of the site (which was to calculate indirect relations between entities given diret relations by users (see instance/utilities/EntithRelation.php).
+
+Posted for historical and reference purposes

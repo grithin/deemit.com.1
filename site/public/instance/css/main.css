@@ -1,0 +1,215 @@
+body{
+	font-size: 12pt;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+p{
+	margin:4px 0 4px 0;
+}
+#header{
+	font-size: 20pt;
+	text-align:left;
+	height:100px;
+	padding:0 20px 0 20px;
+	border-bottom:3px solid #00c;
+	background-color:white;
+}
+#body{
+	padding:0 20px 0 20px;
+}
+
+#headerLogo{
+	float:left;
+}
+#topSideLinks{
+	float:right;
+	font-size:11pt;
+	padding:20px 20px 0 0;
+}
+#topSideLinks a, #footer a{
+	color:#00c;
+	text-decoration:none;
+}
+#topSideLinks a:visited, #footer a:visited{
+	color:#00c;
+}
+
+#headerNav a{
+	text-decoration:none;
+	color:#444;
+	font-family:arial;
+}
+
+#body{
+	min-height:400px;
+}
+
+#footer{
+	margin:auto;
+	border-top:3px solid #00c;
+	padding:15px;
+	font-size: 8pt;
+	margin-top:20px;
+	text-align:center;
+}
+
+
+.pageTitle{
+	font-size:18pt;
+	color:#2924E0;
+	padding:15px 0 5px 0;
+	margin-bottom:10px;
+	border-bottom:1px solid #2924E0;
+	text-shadow: 0px 2px 3px #999;
+	
+}
+
+.section > .title {
+	color:#CA9B0D;
+	text-shadow: 0px 1px 1px #da1;
+	padding:7px 0 7px 0;
+	font-weight:bold;
+}
+.section > .content {
+	clear:both;
+	padding-left:5px;
+	overflow:auto;
+}
+.section .section {
+	padding-left:30px;
+}
+.section .section .section{
+	padding-left:60px;
+}
+.submitRow{
+	text-align:center;
+}
+
+/*+	Editor pages {*/
+textarea.editor{
+	width: 720px;
+	height: 200px;
+	padding: 10px;
+	border: 2px solid #ddd;
+}
+.mooeditable-container{
+	background-color:white;
+}
+/*+	}*/
+/*+	Comments {*/
+.comment{
+	border:2px solid #eef;
+	padding:5px;
+	border-radius:15px;
+	font-size:9pt;
+	overflow:auto;
+}
+.comment > .header > .title{
+	text-decoration:underline;
+	font-weight:bold;
+}
+.comment > .text{
+	padding-left:5px;
+}
+
+.voteOnComment, .voteOn{
+	cursor:pointer;
+	color:blue;
+}
+
+#voteDialog{
+	text-align:center;
+}
+#voteDialog .instruction{
+	color:#CA9B0D;
+	text-shadow: 0px 1px 1px #da1;
+	padding:7px 0 15px 0;
+	font-weight:bold;
+}
+
+/*+	}*/
+
+/*+	overrides {*/
+table.standard{
+	border:1px solid #00c;
+	min-width:500px;
+}
+table.standard th{
+	color: #fff;
+	border-bottom: 2px solid #6678b1;
+	background-color: #00c;
+	font-weight:bold;
+}
+
+
+
+.message{
+	width:800px;
+	border-width:1px;
+	border-style:solid;
+}
+
+/*+	}*/
+
+table.wide{
+	min-width:800px;
+}
+
+
+/*+	form looks {*/
+.button,input[type=submit]{
+	margin:4px 0 4px 0;
+	padding: 5px 10px 5px 10px;
+	border: 2px solid #00c;
+	background-color:#00c;
+	font-weight:bold;
+	border-radius:10px;
+	color:white;
+	text-shadow: 0px 1px 1px #da1;
+	text-decoration:none;
+	line-height:33px;
+}
+a.button:visited{
+	color:white;
+}
+a.button:hover,.button:hover, input[type=submit]:hover{
+	background-color:#22e;
+	cursor:pointer;
+}
+
+input[type=text]{
+	min-width:400px;
+}
+/*+	}*/
+/*+	Meters {*/
+.meter{
+	width:80px;
+	height:13px;
+	border:solid 1px black;
+	border-radius:16px;
+	display:inline-block;
+}
+.meter .measure{
+	height:100%;
+	border-radius:16px;
+}
+.meter .measure.neutral{
+	background-color:#00C;
+}
+.meter .measure.for{
+	background-color:green;
+}
+.meter .measure.against{
+	background-color:red;
+}
+
+.comment .meter{
+	width:50px;
+	height:9px;
+	border:solid 1px black;
+	border-radius:162x;
+}
+.meter-enjoyment-commentStat .measure.neutral{
+	background-color:#E123DA;
+}
+
+/*+	}*/

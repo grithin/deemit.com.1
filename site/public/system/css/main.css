@@ -1,0 +1,186 @@
+.message{
+	padding:5px 20px 5px 20px;
+	margin:5px;
+	overflow:auto;
+	border-bottom:2px dashed black;
+}
+.error{
+	border-color:red;
+}
+#body .errorHighlight, .error{
+	background:#fff9f9;
+	color:#d00;
+}
+.success{
+	border-color:green;
+}
+#body .successHighlight, .success{
+	background:#f9fff9;
+	color:#0d0;
+}
+.notice{
+	border-color:blue;
+}
+#body .noticeHighlight, .notice{
+	background:#f9f9ff;
+	color:#00d;
+}
+.warning{
+	border-color:orange;
+}
+#body .warningHighlight, .warning{
+	background:#fffbf0;
+	color:#ca0;
+}
+
+.ln{
+	cursor:pointer;
+	color:blue;
+}
+
+
+/*+	standard table and table sort{*/
+
+table.standard{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 5px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+	border:1px solid #eef;
+}
+table.standard th{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 8px 8px;
+	border-bottom: 2px solid #6678b1;
+	background-color: #eef;
+}
+table.standard > tbody > tr > td{
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+table.standard > tbody > tr:nth-child(2n){
+	background-color: #f3f3f3;
+}
+
+
+.sortTable > thead th{
+	background-image: url("/public/img/style/sortBoth.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+table.sortTable > thead th:hover{
+	background-color: #e9e9f9;
+}
+
+
+table tr .sortAsc {
+    background-color: #ddf;
+    background-image: url("/public/img/style/sortAsc.gif");
+}
+table tr .sortDesc{
+    background-color: #ddf;
+    background-image: url("/public/img/style/sortDesc.gif");
+}
+/*+	}*/
+
+
+/*+	pagination{*/
+.pagination{
+	margin:10px 5px 2px 5px;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	vertical-align:middle;
+	min-width:800px;
+}
+
+.pagination .first, .pagination .prev, .pagination .pg, .pagination .next, .pagination .last, .pagination .range{
+	float:left;
+}
+.pagination .first, .pagination .prev, .pagination .pg, .pagination .next, .pagination .last, .pagination .range{
+	float:left;
+}
+.pagination .direct, .pagination .go{
+	float:right;
+}
+.pagination .prev.btn{
+	margin-right:10px;
+}
+.pagination .next.btn{
+	margin-left:10px;
+}
+.pagination .btn{
+	border-radius: 4px 4px 4px 4px;
+	background-color:#eee;
+	padding:0px 5px 0px 5px;
+	margin-left:2px;
+    height: 22px;
+    line-height:22px;
+    cursor:pointer;
+}
+.pagination .btn.pg.current{
+	background-color:#ccf;
+}
+
+.pagination .btn:hover{
+	background-color:#ddf;
+}
+.pagination .btn:active{
+	background-color:#99f;
+	color:#fff;
+}
+
+.pagination .btn.disabled{
+	background-color:#ddd;
+	color:#a9a9a9;
+	cursor:default;
+}
+.pagination .btn.disabled:hover{
+	background-color:#ddd;
+	color:#a9a9a9;
+}
+.pagination .btn.disabled:active{
+	background-color:#ddd;
+	color:#a9a9a9;
+}
+
+.pagination .range{
+	padding:0px 5px 0px 5px;
+	height: 22px;
+    line-height:22px;
+	padding-left:20px;
+}
+.pagination .range span{
+	vertical-align:middle;
+	display:inline;
+}
+.pagination .direct input{
+	width:30px;
+}
+.pagination .range .current,.pagination .range .total{
+	font-weight:bold;
+}
+/*+	}*/
+/*+	Tool tip {*/
+.tooltipMarker{
+	padding-left:8px;
+	cursor:pointer;
+	color:blue;
+}
+.tooltip{
+	position:aboslute;
+	background:#ffd;
+	padding:5px;
+	border:1px solid #eec;
+	max-width:500px;
+	color:black;
+	z-index:1000;
+}
+/*+	}*/

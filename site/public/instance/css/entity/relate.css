@@ -1,0 +1,22 @@
+#relaterBoxParent{
+	position:fixed;
+	width:600px;
+	left:50%;
+	margin-left:-310px;
+	
+	padding:10px;
+	background-color:#eef;
+	border-radius:15px;
+	border:2px solid #bbf;
+	text-align:center;
+}
+
+#relaterActions{
+	margin-top:10px;
+}
+#relaterCancelButton{
+	margin-left:10px;
+}
+#relaterRelateButton{
+	margin-right:10px;
+}

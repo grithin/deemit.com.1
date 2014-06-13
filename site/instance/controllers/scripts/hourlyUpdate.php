@@ -1,0 +1,3 @@
+<?
+
+EntityRelation::compileRationalWeights();

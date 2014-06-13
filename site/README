@@ -1,0 +1,18 @@
+Thought Push PHP Framework v4.0
+============
+USING
+============
+See php.framework.thoughtpush.com
+
+
+============
+INSTALLING
+============
+Unzip into directory.  Point apache virtual host root directory to 
+the "public" folder.  ".htaccess" must be allowed and mod_rewrite must be loaded.  Set "SetEnv mode production" 
+in apache virtual host if desired.  
+
+Requirements:
+	PHP 5
+	Apache
+	*nix

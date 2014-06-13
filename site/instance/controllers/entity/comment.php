@@ -1,0 +1,2 @@
+<?
+Controller::req('comment');
